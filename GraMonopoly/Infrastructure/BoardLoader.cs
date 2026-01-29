@@ -6,52 +6,51 @@ public static class BoardLoader
 {
     public static List<BoardField> Load() => new()
     {
-        new StartField(),                    // 0
-        new PropertyField("Mediterranean Ave", 60, 2),
+        new StartField(),                   
+        new PropertyField("Warszawa", 60, 2),
         new CardField(),
-        new PropertyField("Baltic Ave", 60, 4),
-        new TaxField("Income Tax", 200),
-        new PropertyField("Reading Railroad", 200, 25),
+        new PropertyField("Kraków", 60, 4),
+        new TaxField("Podatek", 200),
+        new PropertyField("Londyn", 200, 25),
 
-        new PropertyField("Oriental Ave", 100, 6),
+        new PropertyField("Liverpool", 100, 6),
         new CardField(),
-        new PropertyField("Vermont Ave", 100, 6),
-        new PropertyField("Connecticut Ave", 120, 8),
+        new PropertyField("Tokio", 100, 6),
+        new PropertyField("Osaka", 120, 8),
 
-        new JailField(),                     // 10
-        new PropertyField("St. Charles Place", 140, 10),
+        new JailField(),                     
+        new PropertyField("Berlin", 140, 10),
         new CardField(),
-        new PropertyField("States Ave", 140, 10),
-        new PropertyField("Virginia Ave", 160, 12),
-        new PropertyField("Pennsylvania RR", 200, 25),
+        new PropertyField("Hamburg", 140, 10),
+        new PropertyField("Paryz", 160, 12),
+        new PropertyField("Lyon", 200, 25),
 
-        new PropertyField("St. James Place", 180, 14),
+        new PropertyField("Madryt", 180, 14),
         new CardField(),
-        new PropertyField("Tennessee Ave", 180, 14),
-        new PropertyField("New York Ave", 200, 16),
+        new PropertyField("Barcelona", 180, 14),
+        new PropertyField("Rzym", 200, 16),
 
-        new TaxField("Free Parking", 0),     // 20
-        new PropertyField("Kentucky Ave", 220, 18),
+        new TaxField("Podatek", 100),     
+        new PropertyField("Wenecja", 220, 18),
         new CardField(),
-        new PropertyField("Indiana Ave", 220, 18),
-        new PropertyField("Illinois Ave", 240, 20),
-        new PropertyField("B&O Railroad", 200, 25),
+        new PropertyField("Moskwa", 220, 18),
+        new PropertyField("Charków", 240, 20),
+        new PropertyField("Lwów", 200, 25),
 
-        new PropertyField("Atlantic Ave", 260, 22),
-        new PropertyField("Ventnor Ave", 260, 22),
+        new PropertyField("Kijów", 260, 22),
+        new PropertyField("Chicago", 260, 22),
         new CardField(),
-        new PropertyField("Marvin Gardens", 280, 24),
+        new PropertyField("Nowy Jork", 280, 24),
 
-        new GoToJailField(),                 // 30
-        new PropertyField("Pacific Ave", 300, 26),
-        new PropertyField("North Carolina Ave", 300, 26),
+        new GoToJailField(),                
+        new PropertyField("California", 300, 26),
+        new PropertyField("Ankara", 300, 26),
         new CardField(),
-        new PropertyField("Pennsylvania Ave", 320, 28),
-        new PropertyField("Short Line", 200, 25),
+        new PropertyField("Stambuł", 320, 28),
+        new PropertyField("Praga", 200, 25),
 
         new CardField(),
-        new PropertyField("Park Place", 350, 35),
-        new TaxField("Luxury Tax", 100),
-        new PropertyField("Boardwalk", 400, 50)
+        new TaxField("Podatek", 100),
+        
     };
 }
